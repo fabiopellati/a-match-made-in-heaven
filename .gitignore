@@ -1,0 +1,16 @@
+.composer
+node_modules
+.idea/
+.vagrant/
+vendor/
+config/development.config.php
+data/cache/*
+!data/cache/.gitkeep
+phpunit.xml
+ubuntu-xenial-16.04-cloudimg-console.log
+README_ZF2.md
+*.old
+composer.lock
+public/js/lib/
+public/js/app/dist
+r.js
