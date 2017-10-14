@@ -3,7 +3,7 @@ return [
     'service_manager' => [
         'factories' => [
             'Application\\MyPgmCallExample'       => 'IbmiTools\\PgmCallActuatorFactory',
-            'IbmiTools\\ToolkitInstance\\Default' => 'IbmiTools\\ToolkitInstance\\FakeToolkitInstanceFactory',
+            'IbmiTools\\ToolkitInstance\\Default' => 'IbmiTools\\ToolkitInstance\\ToolInstanceFactory',
         ],
     ],
     'ibmi-tools'      => [
